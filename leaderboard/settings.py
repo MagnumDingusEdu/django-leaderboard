@@ -127,3 +127,5 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
+
+ADMIN_SITE_HEADER = "fuckblizzard"

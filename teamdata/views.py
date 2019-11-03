@@ -11,4 +11,4 @@ def leader_view(request, *args, **kwargs):
     context = {
         'teamlist':team_list,
     }
-    return render(request, 'teamdata/index.html', context)
+    return render(request, 'teamdata/leaderboard.html', context)

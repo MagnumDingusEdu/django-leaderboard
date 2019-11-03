@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from teamdata.views import leader_view
+
+admin.sites.AdminSite.site_header = 'fuckblizzard'
+admin.sites.AdminSite.site_title = 'fuckblizzard' 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', leader_view, name='leader')
